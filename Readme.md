@@ -14,7 +14,7 @@ The source code for the simulator is inside *gym_breastcancer* and requires pyth
 
     conda create -n MDPBreastCancer python=3.7
     source activate MDPBreastCancer
-    pip install gym=0.20.0
+    pip install gym==0.20.0
     pip install -U "ray[rllib]==1.11.1"
 
 
